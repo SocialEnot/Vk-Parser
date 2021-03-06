@@ -1,7 +1,5 @@
 import vk_api
 from colorama import init, Fore, Back, Style
-from playsound import *
-
 
 
 init()
@@ -42,7 +40,6 @@ if __name__ == '__main__':
             break
         except:
             print(Fore.RED + str(password) + ' BAD')
-
-playsound('sound.mp3')
+            
 
 input()
